@@ -137,7 +137,7 @@ The PCB has been **fabricated, assembled and successfully tested**. This reposit
 
 ## 🌀 PCB Coil Creator settings
 
-This project's antenna was designed with a **circular spiral PCB coil generator**. The settings below were transcribed directly from the included `images/Coil_creator.png` screenshot, rather than estimated from the finished board.
+This project's antenna was designed with a **circular spiral PCB coil generator**.
 
 <img src="images/Coil_creator.png" alt="Original KiCad Coil Generator configuration used for this PCB" width="100%" />
 
