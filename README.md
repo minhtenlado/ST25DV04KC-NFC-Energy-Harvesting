@@ -179,7 +179,7 @@ This project's antenna was designed with a **circular spiral PCB coil generator*
 
 ### One-time setup
 
-1. Turn on **NFC** in Android settings and open **ST25 NFC Tap**.
+1. Turn on **NFC** in Android settings and open **ST25 NFC Tap** iOS does the same thing.
 2. Hold the phone's NFC antenna close to the PCB spiral until the app detects the **ST25DV** tag (ISO/IEC 15693 / Type 5). The optimal phone position varies by model.
 3. Open the app menu and enter **Register Management** (or the equivalent register/configuration screen in your app version).
 4. Find the **static `EH_MODE`** configuration register (RF configuration register address **`0x02`**).
