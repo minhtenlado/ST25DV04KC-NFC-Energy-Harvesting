@@ -52,7 +52,6 @@ The PCB has been **fabricated, assembled and successfully tested**. This reposit
 <sub>Real hardware demonstration · NFC energy harvesting at 13.56 MHz · Battery-free LED operation</sub>
 
 </div>
-> 
 
 ## 📸 Real hardware & gallery
 
