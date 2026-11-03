@@ -200,26 +200,6 @@ This project's antenna was designed with a **circular spiral PCB coil generator*
 
 **ST documentation:** [ST25DV04KC datasheet](https://www.st.com/resource/en/datasheet/st25dv04kc.pdf) · [ST25 NFC Tap software](https://www.st.com/en/embedded-software/stsw-st25001.html) · [ST25 NFC Tap user manual (UM2131)](https://www.st.com/resource/en/user_manual/um2131-st25-android-nfc-tap-application-stmicroelectronics.pdf)
 
-<details>
-<summary><strong>🇻🇳 Xem hướng dẫn cấu hình nhanh bằng tiếng Việt</strong></summary>
-
-### Tạo cuộn anten trong KiCad
-
-Cài **PCB Coil Creator** từ *Plugin and Content Manager*, sau đó mở công cụ trong **PCB Editor**. Nhập thông số theo đúng ảnh `images/Coil_creator.png`: **1 lớp cuộn, 9 vòng, đường kính ngoài 44 mm, xoắn theo chiều kim đồng hồ, rộng đường đồng 0,5 mm, khoảng cách 0,36 mm, via 0,6 mm và lỗ khoan 0,3 mm**. Nhấn **Generate Coil**, sau đó nối hai đầu anten với `AC0` và `AC1` của ST25DV04KC.
-
-### Cấu hình chip ST25DV04KC lần đầu
-
-1. Bật **NFC** trên điện thoại Android và cài ứng dụng **ST25 NFC Tap** chính hãng.
-2. Áp điện thoại vào vị trí anten trên PCB để ứng dụng nhận diện tag **ST25DV**.
-3. Vào mục **Register Management** (tên menu có thể khác giữa các phiên bản).
-4. Tìm **thanh ghi tĩnh `EH_MODE` (địa chỉ RF `0x02`)**, đổi giá trị thành **`0x00`**.
-5. Nhấn lưu/ghi. Nếu ứng dụng yêu cầu mật khẩu cấu hình RF, chip mới chưa đổi mật khẩu thường có mật khẩu mặc định gồm **64 bit bằng 0**; nếu đã đổi thì phải dùng mật khẩu thực tế.
-6. Đọc lại để xác nhận `EH_MODE = 0x00`, đưa điện thoại ra xa rồi áp lại để kiểm tra LED.
-
-**Lưu ý:** Chỉ bật `EH_EN` ở thanh ghi động sẽ **không lưu chế độ khởi động**. Muốn tự bật Energy Harvesting ở những lần quét tiếp theo phải cấu hình `EH_MODE = 0x00`. Đây là **ghi cấu hình EEPROM**, không phải nạp firmware.
-
-</details>
-
 ## 🏭 Manufacturing files
 
 The `production/` folder contains fabrication and assembly exports supplied with this project.
