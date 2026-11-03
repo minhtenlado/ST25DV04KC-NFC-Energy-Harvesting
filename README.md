@@ -47,15 +47,12 @@ The PCB has been **fabricated, assembled and successfully tested**. This reposit
 
 ### Battery-Free NFC LED — Real Hardware Demo
 
-**Watch the real, fabricated ST25DV04KC board in action.** The animation plays automatically and loops directly in the GitHub README — no external video player or link required.
-
 <img src="images/NFC_LED_ST25DV_full_demo.gif" alt="Animated demonstration of the fabricated ST25DV04KC NFC energy harvesting LED PCB" width="850" />
 
 <sub>Real hardware demonstration · NFC energy harvesting at 13.56 MHz · Battery-free LED operation</sub>
 
 </div>
-
-> **Demo file:** [`images/NFC_LED_ST25DV_full_demo.gif`](images/NFC_LED_ST25DV_full_demo.gif). The GIF is hosted in this repository, so it can display directly inside GitHub's README. A GIF contains no audio and may take a moment to load on slower connections.
+> 
 
 ## 📸 Real hardware & gallery
 
