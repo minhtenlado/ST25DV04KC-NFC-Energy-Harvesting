@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,C0603,1,,
+"LED1, LED2",LED-SMD_L1.6-W0.8-R-RD,2,,
+"R1, R2",R0603,2,,
+U1,WLCSP-10_L1.7-W1.5-P0.50_ST_ST25DVXX,1,,
